@@ -8,6 +8,7 @@ import { ShowComponent } from './show/show.component';
 import { SeatSelectComponent } from './seat-select/seat-select.component';
 import { TicketComponent } from './ticket/ticket.component';
 import { ResListComponent } from './res-list/res-list.component';
+import { AppHeaderComponent } from './app-header/app-header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ResListComponent } from './res-list/res-list.component';
     ShowComponent,
     SeatSelectComponent,
     TicketComponent,
-    ResListComponent
+    ResListComponent,
+    AppHeaderComponent
   ],
   imports: [
     BrowserModule,
