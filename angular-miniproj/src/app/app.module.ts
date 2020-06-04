@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MovListComponent } from './mov-list/mov-list.component';
+import { ShowComponent } from './show/show.component';
+import { SeatSelectComponent } from './seat-select/seat-select.component';
+import { TicketComponent } from './ticket/ticket.component';
+import { ResListComponent } from './res-list/res-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MovListComponent,
+    ShowComponent,
+    SeatSelectComponent,
+    TicketComponent,
+    ResListComponent
   ],
   imports: [
     BrowserModule,
